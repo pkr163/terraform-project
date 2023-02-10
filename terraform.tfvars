@@ -1,0 +1,5 @@
+region = "us-west-2"
+network_cidr = "10.0.0.0/16"
+db_instance_class = "db.t2.micro"
+db_engine = "postgres"
+db_port = "5432"
