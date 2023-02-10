@@ -1,0 +1,22 @@
+my-terraform-project/
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── modules/
+│   ├── network/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── app_server/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   └── db_server/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+├── data/
+│   └── aws_ami/
+│       └── us-west-2.tf
+└── provider.tf
